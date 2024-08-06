@@ -1,4 +1,3 @@
-import React from "react";
 
 function article_1() {
 	return {
