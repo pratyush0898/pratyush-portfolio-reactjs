@@ -40,7 +40,7 @@ const INFO = {
 				"Portfolio website of Pratyush Kumar, a talented web developer from India. Explore his skills, projects, and contact him for collaborations.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "/#",	
+			link: "https://github.com/pratyush0898/pratyush-portfolio.git",	
 		},
 
 		{
@@ -49,7 +49,7 @@ const INFO = {
 				"Python web scraping tool efficiently extracts data from websites. Automate tasks, gather info, and organize it for your needs.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "/#",	
+			link: "https://github.com/pratyush0898/Web-Scraper.git",	
 		},
 
 		{
@@ -58,7 +58,7 @@ const INFO = {
 				"101 HTML features 101 project using HTML, CSS, JavaScript, designed to help you learn and master web devlopment basics.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "/#",	
+			link: "https://github.com/pratyush0898/101-html.git",	
 		},
 
 		{
