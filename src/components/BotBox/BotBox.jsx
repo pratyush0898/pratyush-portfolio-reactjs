@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 const BotChat = () => {
   useEffect(() => {
     // Inject the Botpress webchat script
