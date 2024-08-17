@@ -2,9 +2,11 @@
 
 Welcome to Pratyush Portfolio! This is my personal portfolio site, showcasing my skills, projects, and achievements, built with React.
 
-## Demo
+## Site
+ 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/06a150fc-4ee0-4dae-80c1-812bf15360a0/deploy-status)](https://app.netlify.com/sites/nvmpratyush/deploys)
 
-Check out the live demo: [Pratyush Portfolio Demo](https://pratyush.io)
+Check out the live site: [Pratyush Portfolio Demo](https://pratyush.io)
 
 ## Features
 
