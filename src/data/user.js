@@ -78,14 +78,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "/#",	
  		},
-		{
-			title: "Genz pay",
-			description:
-				"Genzpay is a fast, secure, and easy-to-use payment app for instant money transfers, bill splits, and more—perfectly crafted for the modern digital generation..",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/Genz-pays",	
- 		},
 	],
 };
 
