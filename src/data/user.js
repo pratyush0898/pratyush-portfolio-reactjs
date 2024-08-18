@@ -11,8 +11,8 @@ const INFO = {
 		github: "https://github.com/pratyush0898",
 		linkedin: "https://www.linkedin.com/in/pratyush-kumar-751a1229b/",
 		instagram: "https://instagram.com/nvm_partyush/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		stackoverflow: "https://stackoverflow.com/users/23561258/pratyush-kumar",
+		facebook: "https://www.facebook.com/profile.php?id=61556676064730",
 	},
 
 	homepage: {
@@ -77,6 +77,14 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "/#",	
+ 		},
+		{
+			title: "Genz pay",
+			description:
+				"Genzpay is a fast, secure, and easy-to-use payment app for instant money transfers, bill splits, and more—perfectly crafted for the modern digital generation..",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/pratyush0898/Genz-pays",	
  		},
 	],
 };
