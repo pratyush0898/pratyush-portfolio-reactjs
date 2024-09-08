@@ -42,7 +42,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/pratyush0898/pratyush-portfolio.git",	
 		},
-
 		{
 			title: "Web Scraping Tool",
 			description:
@@ -51,7 +50,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/pratyush0898/Web-Scraper.git",	
 		},
-
 		{
 			title: "101 H1ML",
 			description:
@@ -60,16 +58,14 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/pratyush0898/101-html.git",	
 		},
-
 		{
 			title: "E-commerce Store",
 			description:
 				"Build a user-friendly online store with product browsing, cart management, and checkout (optional: payment integration).",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "/#",	
+			link: "https://github.com/pratyush0898/ecommerce-store.git",	
 		},
-
 		{
 			title: "Real-time Chat App",
 			description:
@@ -78,6 +74,14 @@ const INFO = {
 			linkText: "View Project",
 			link: "/#",	
  		},
+		 {
+			"title": "OpenAI API Project",
+			"description": "Leverage the power of OpenAI's GPT-3.5 API to create an AI chatbot in Python that runs directly in the terminal.",
+			"logo": "https://static.cdnlogo.com/logos/c/38/ChatGPT.svg",
+			"linkText": "View Project",
+			"link": "https://github.com/pratyush0898/Ai-using-openAI.git"
+		}
+		
 	],
 };
 
