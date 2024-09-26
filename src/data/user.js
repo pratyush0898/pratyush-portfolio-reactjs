@@ -76,7 +76,7 @@ const INFO = {
 		// },
 		{
 			"title": "Color Paradox",
-			"description": "Color Paradox is a web-based tool that allows users to create and customize color palettes in real-time. Built with Vite and React, this project features an intuitive interface for adjusting colors and exporting palettes, making it a valuable resource for designers and developers aiming for precise control over their color schemes.",
+			"description": "Color Paradox is a web-based tool that allows users to create and customize color palettes in real-time. Built with Vite and React, this project features an intuitive interface for adjusting colors and exporting palettes, making it a valuable resource for designers and developers aiming for precise control over their color schemes. (Under Construction)",
 			"logo": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			"linkText": "View Project",
 			"link": "https://github.com/pratyush0898/Color-paradox.git"
