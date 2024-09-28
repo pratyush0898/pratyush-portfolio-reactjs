@@ -76,11 +76,11 @@ const INFO = {
 		// },
 		{
 			"title": "Color Paradox",
-			"description": "Color Paradox is a web-based tool that allows users to create and customize color palettes in real-time. Built with Vite and React, this project features an intuitive interface for adjusting colors and exporting palettes, making it a valuable resource for designers and developers aiming for precise control over their color schemes. (Under Construction)",
+			"description": "Color Paradox is a real-time color palette generator built with Vite and React. It helps users create and customize color palettes with ease and precision.",
 			"logo": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			"linkText": "View Project",
 			"link": "https://github.com/pratyush0898/Color-paradox.git"
-		},		
+		},			
 		{
 			title: "OpenAI API Project",
 			description: "Leverage the power of OpenAI's GPT-3.5 API to create an AI chatbot in Python that runs directly in the terminal.",
