@@ -13,7 +13,7 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src="./microsoft.png"
 								alt="facebook"
@@ -24,7 +24,7 @@ const Works = () => {
 								Web devloper
 							</div>
 							<div className="work-duration">2023 - Present</div>
-						</div>
+						</div> */}
 
 						<div className="work">
 							<img
