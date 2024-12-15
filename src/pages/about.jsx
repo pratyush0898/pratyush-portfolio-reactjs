@@ -32,25 +32,25 @@ const About = () => {
 			);
 	
 			// Adding Marker
-			const marker = new window.google.maps.Marker({
-				position: { lat: 21.151953335774625, lng: 81.35217122544434 },
-				map: map,
-				icon: {
-					url: "https://i.ibb.co/XJfr75s/transparent-image.png", // Replace with your image URL
-					scaledSize: new window.google.maps.Size(30, 30), // Custom size (width, height)
-				},				 
-				title: "Pratyush Webworks",
-			});
+			// const marker = new window.google.maps.Marker({
+			// 	position: { lat: 21.151953335774625, lng: 81.35217122544434 },
+			// 	map: map,
+			// 	icon: {
+			// 		url: "https://i.ibb.co/XJfr75s/transparent-image.png", // Replace with your image URL
+			// 		scaledSize: new window.google.maps.Size(30, 30), // Custom size (width, height)
+			// 	},				 
+			// 	title: "Pratyush Webworks",
+			// });
 	
-			// Adding Info Window
-			const infoWindow = new window.google.maps.InfoWindow({
-				content: `<div style="font-size:14px; text-align:center;">
-							<p style="font-weight:bold;">Pratyush Webworks<p/>5922+QW2, Shiv Para, Railway Colony, Bhilai, Chhattisgarh 491001
-						  </div>`,
-			});
+			// // Adding Info Window
+			// const infoWindow = new window.google.maps.InfoWindow({
+			// 	content: `<div style="font-size:14px; text-align:center;">
+			// 				<p style="font-weight:bold;">Pratyush Webworks<p/>5922+QW2, Shiv Para, Railway Colony, Bhilai, Chhattisgarh 491001
+			// 			  </div>`,
+			// });
 	
 			// Open the info window **above the marker**
-			infoWindow.open(map, marker);
+			// infoWindow.open(map, marker);
 		};
 	
 		if (window.google && window.google.maps) {
