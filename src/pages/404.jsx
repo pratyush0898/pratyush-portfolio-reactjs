@@ -9,7 +9,6 @@ import Logo from "../components/common/logo";
 import INFO from "../data/user";
 
 import "./styles/404.css";
-import BotChat from "../components/BotBox/BotBox";
 
 const Notfound = () => {
 	useEffect(() => {
@@ -45,7 +44,6 @@ const Notfound = () => {
 					</div>
 				</div>
 			</div>
-			<BotChat />
 		</React.Fragment>
 	);
 };

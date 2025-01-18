@@ -10,7 +10,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
-import BotChat from "../components/BotBox/BotBox";
 
 const About = () => {
 	useEffect(() => {
@@ -30,41 +29,20 @@ const About = () => {
 					mapTypeId: "roadmap",
 				}
 			);
-	
-			// Adding Marker
-			// const marker = new window.google.maps.Marker({
-			// 	position: { lat: 21.151953335774625, lng: 81.35217122544434 },
-			// 	map: map,
-			// 	icon: {
-			// 		url: "https://i.ibb.co/XJfr75s/transparent-image.png", // Replace with your image URL
-			// 		scaledSize: new window.google.maps.Size(30, 30), // Custom size (width, height)
-			// 	},				 
-			// 	title: "Pratyush Webworks",
-			// });
-	
-			// // Adding Info Window
-			// const infoWindow = new window.google.maps.InfoWindow({
-			// 	content: `<div style="font-size:14px; text-align:center;">
-			// 				<p style="font-weight:bold;">Pratyush Webworks<p/>5922+QW2, Shiv Para, Railway Colony, Bhilai, Chhattisgarh 491001
-			// 			  </div>`,
-			// });
-	
-			// Open the info window **above the marker**
-			// infoWindow.open(map, marker);
+			console.log(`debug: ${map}`); // to fix unexpected error, 'map' is assigned a value but never used in the file src/pages/about.jsx
 		};
-	
+
 		if (window.google && window.google.maps) {
 			initMap();
 		} else {
 			const script = document.createElement("script");
-			script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCTatOasJyifDhQ4IMA_7UO0Dnkvd5fUEY`; // Replace YOUR_API_KEY with your actual API key
+			script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
 			script.async = true;
 			script.defer = true;
 			script.onload = initMap;
 			document.body.appendChild(script);
 		}
 	}, []);
-	
 
 	return (
 		<React.Fragment>
@@ -75,6 +53,8 @@ const About = () => {
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+				<script src="https://files.bpcontent.cloud/2024/11/13/13/20241113130426-YK6QCUIT.js"></script>
 			</Helmet>
 
 			<div className="page-content">
@@ -126,7 +106,6 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<BotChat />
 		</React.Fragment>
 	);
 };

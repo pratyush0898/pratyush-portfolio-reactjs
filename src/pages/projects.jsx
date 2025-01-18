@@ -10,7 +10,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/projects.css";
-import BotChat from "../components/BotBox/BotBox";
 
 const Projects = () => {
 	useEffect(() => {
@@ -28,6 +27,8 @@ const Projects = () => {
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+				<script src="https://files.bpcontent.cloud/2024/11/13/13/20241113130426-YK6QCUIT.js"></script>
 			</Helmet>
 
 			<div className="page-content">
@@ -66,7 +67,6 @@ const Projects = () => {
 					</div>
 				</div>
 			</div>
-			<BotChat />
 		</React.Fragment>
 	);
 };

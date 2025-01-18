@@ -2,37 +2,44 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a Web developer with expertise in JavaScript Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Pratyush", "Pratyush K", "Pratyush kumar"],
+			"Welcome to my personal space where I share my journey as a web developer. Dive into my expertise in JavaScript, Node.js, and scalable web applications.",
+		keywords: ["nvmPratyush", "Pratyush kumar", "Web Developer", "JavaScript Expert", "Node.js Projects"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a Web developer with expertise in JavaScript Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-			keywords: ["Pratyush", "Pratyush K", "Pratyush kumar"],
-		},
+			"Learn more about me, my skills, and my experience as a web developer specializing in JavaScript, Node.js, and building reliable web applications.",
+		keywords: ["About Pratyush", "Developer Journey", "Web Development"],
+	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-			keywords: ["Pratyush", "Pratyush K", "Pratyush kumar"],
-		},
+			"Explore my insights on programming, leadership, and design through thoughtfully curated articles on various technical and creative topics.",
+		keywords: ["Programming Articles", "Leadership Tips", "Tech Insights"],
+	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-			keywords: ["Pratyush", "Pratyush K", "Pratyush kumar"],
-		},
+			"Discover my portfolio of projects showcasing my skills in web development. Many of these projects are open-source and available for contributions.",
+		keywords: ["Web Projects", "Open-Source", "Portfolio Work"],
+	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-			keywords: ["Pratyush", "Pratyush K", "Pratyush kumar"],
-		},
+			"Get in touch with me for collaborations, questions, or opportunities. I'm always excited to connect and share ideas.",
+		keywords: ["Contact Pratyush", "Collaborate", "Reach Out"],
+	},
+
+	{
+		page: "support",
+		description:
+			"Support my work by contributing a small amount. Your help allows me to keep creating and delivering quality projects for everyone to enjoy.",
+		keywords: ["Support Pratyush", "Donate Pratyush", "Buy Me Coffee"],
+	},
 ];
 
 export default SEO;

@@ -33,9 +33,7 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">Freelancer</div>
-							<div className="work-subtitle">
-								Web designer
-							</div>
+							<div className="work-subtitle">Web designer</div>
 							<div className="work-duration">2022 - Present</div>
 						</div>
 					</div>

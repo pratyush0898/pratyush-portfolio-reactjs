@@ -20,6 +20,7 @@
 .page-content {
 	background-color: white;
 	position: relative;
+	height: 100%;
 }
 
 .page-content:before,
@@ -65,6 +66,29 @@
 	margin-top: 25px;
 }
 
+.button {
+	color: #090909;
+	padding: 12px 24px;
+	font-size: 18px;
+	border-radius: 2.4em;
+	background: #f0f8ff;
+	cursor: pointer;
+	border: 1px solid #e8e8e8;
+	transition: all 0.3s;
+	box-shadow:
+		6px 6px 12px #c5c5c5,
+		-6px -6px 12px #ffffff;
+}
+
+.button:active {
+	color: #666;
+	box-shadow:
+		0px 0px 0px #c5c5c5,
+		0px 0px 0px #ffffff,
+		inset 4px 4px 6px #c5c5c5,
+		inset -4px -4px 6px #ffffff;
+}
+
 .page-footer {
 	position: block;
 }
@@ -77,7 +101,15 @@
 	border-top: 2px solid var(--tertiary-color);
 }
 
+.nolink {
+	all: unset;
+	text-decoration: none;
+	color: inherit;
+	cursor: default;
+}
+
 @media (max-width: 1270px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
@@ -91,6 +123,7 @@
 }
 
 @media (max-width: 1024px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 950px) / 2);

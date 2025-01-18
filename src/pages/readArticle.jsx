@@ -11,7 +11,6 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
-import BotChat from "../components/BotBox/BotBox";
 
 let ArticleStyle = styled.div``;
 
@@ -35,6 +34,8 @@ const ReadArticle = () => {
 				<title>{`${article().title} | ${INFO.main.title}`}</title>
 				<meta name="description" content={article().description} />
 				<meta name="keywords" content={article().keywords.join(", ")} />
+				<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+				<script src="https://files.bpcontent.cloud/2024/11/13/13/20241113130426-YK6QCUIT.js"></script>
 			</Helmet>
 
 			<div className="page-content">
@@ -78,7 +79,6 @@ const ReadArticle = () => {
 					</div>
 				</div>
 			</div>
-			<BotChat />
 		</React.Fragment>
 	);
 };
