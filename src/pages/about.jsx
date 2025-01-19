@@ -18,32 +18,6 @@ const About = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "about");
 
-	useEffect(() => {
-		// Initialize Google Maps API
-		const initMap = () => {
-			const map = new window.google.maps.Map(
-				document.getElementById("map"),
-				{
-					center: { lat: 21.151953335774625, lng: 81.35217122544434 }, // Centered on Pratyush Webworks
-					zoom: 18, // Closer view to emphasize the location
-					mapTypeId: "roadmap",
-				}
-			);
-			console.log(`debug: ${map}`); // to fix unexpected error, 'map' is assigned a value but never used in the file src/pages/about.jsx
-		};
-
-		if (window.google && window.google.maps) {
-			initMap();
-		} else {
-			const script = document.createElement("script");
-			script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
-			script.async = true;
-			script.defer = true;
-			script.onload = initMap;
-			document.body.appendChild(script);
-		}
-	}, []);
-
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -81,14 +55,11 @@ const About = () => {
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										<div
-											id="map"
-											style={{
-												width: "100%",
-												height: "300px",
-											}}
-											className="about-map"
-										></div>
+										<img
+											src="../about.jpg"
+											alt="Pratyush Kumar"
+											className="about-image"
+										/>
 									</div>
 								</div>
 
