@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Pratyush.io All Rights Reserved.
+						© 2024 nvmPratyush.netlify.app All Rights Reserved.
 					</div>
 				</div>
 			</div>
