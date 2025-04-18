@@ -40,89 +40,95 @@ const INFO = {
 	},
 
 	projects: [
-		{
-			title: "Personal website",
-			description:
-				"Portfolio website of Pratyush Kumar, a talented web developer from India. Explore his skills, projects, and contact him for collaborations.",
-			logo: "React.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/pratyush-portfolio.git",
-		},
-		{
-			title: "Web Scraping Tool",
-			description:
-				"Python web scraping tool efficiently extracts data from websites. Automate tasks, gather info, and organize it for your needs.",
-			logo: "Python.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/Web-Scraper.git",
-		},
-		{
-			title: "101 H1ML",
-			description:
-				"101 HTML features 101 project using HTML, CSS, JavaScript, designed to help you learn and master web devlopment basics.",
-			logo: "Html.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/101-html.git",
-		},
-		{
-			title: "E-commerce Store",
-			description:
-				"Build a user-friendly online store with product browsing, cart management, and checkout (optional: payment integration).",
-			logo: "React.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/ecommerce-store.git",
-		},
-		// {
-		// 	title: "Real-time Chat App",
-		// 	description:
-		// 		"Develop a chat application enabling real-time messaging, chat room creation, and user presence (optional: user authentication).",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "/#",
-		// },
-		{
-			"title": "Color Paradox",
-			"description": "Color Paradox is a real-time color palette generator built with Vite and React. It helps users create and customize color palettes with ease and precision.",
-			"logo": "React.png",
-			"linkText": "View Project",
-			"link": "https://github.com/pratyush0898/Color-paradox.git"
-		},
-		{
-			title: "OpenAI API Project",
-			description: "Leverage the power of OpenAI's GPT-3.5 API to create an AI chatbot in Python that runs directly in the terminal.",
-			logo: "https://static.cdnlogo.com/logos/c/38/ChatGPT.svg",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/Ai-using-openAI.git"
-		},
-		{
-			title: "ArtVision Gallery",
-			description: "A Pinterest-like project built with a front-end focus using array methods (no backend).",
-			logo: "React.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/ArtVision-Gallery.git"
-		},
-		{
-			title: "GitHub Theme Toggler Website",
-			description: "A simple website with Dark, Light, and Solarize themes that persist using localStorage.",
-			logo: "Html.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/GitHub-Theme-Toggle-Website"
-		},
-		{
-			title: "Noi World",
-			description: "A dynamic website showcasing the Nio ES6, a luxury electric SUV, created as a personal project using React.",
-			logo: "Html.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/noi-world.git"
-		},
-		{
-			title: "Krypto",
-			description: "KRYPTO is a secure marketplace for buying and selling unique crypto assets. This project aims to provide a user-friendly interface for NFT enthusiasts to explore, buy, and sell NFTs.",
-			logo: "Html.png",
-			linkText: "View Project",
-			link: "https://github.com/pratyush0898/krypto.git"
-		}
-	]
+  {
+    title: "Personal website",
+    description:
+      "Portfolio website of Pratyush Kumar, a talented web developer from India. Explore his skills, projects, and contact him for collaborations.",
+    logo: "React.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/pratyush-portfolio.git",
+  },
+  {
+    title: "Deluxe Portfolio",
+    description:
+      "A modern and premium portfolio built with React and Tailwind CSS. Showcase your work and skills with this sleek design.",
+    logo: "React.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/Deluxe-portfolio/",
+  },
+  {
+    title: "Web Scraping Tool",
+    description:
+      "Python web scraping tool efficiently extracts data from websites. Automate tasks, gather info, and organize it for your needs.",
+    logo: "Python.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/Web-Scraper.git",
+  },
+  {
+    title: "101 H1ML",
+    description:
+      "101 HTML features 101 project using HTML, CSS, JavaScript, designed to help you learn and master web devlopment basics.",
+    logo: "Html.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/101-html.git",
+  },
+  {
+    title: "E-commerce Store",
+    description:
+      "Build a user-friendly online store with product browsing, cart management, and checkout (optional: payment integration).",
+    logo: "React.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/ecommerce-store.git",
+  },
+  {
+    title: "Color Paradox",
+    description:
+      "Color Paradox is a real-time color palette generator built with Vite and React. It helps users create and customize color palettes with ease and precision.",
+    logo: "React.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/Color-paradox.git",
+  },
+  {
+    title: "OpenAI API Project",
+    description:
+      "Leverage the power of OpenAI's GPT-3.5 API to create an AI chatbot in Python that runs directly in the terminal.",
+    logo: "https://static.cdnlogo.com/logos/c/38/ChatGPT.svg",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/Ai-using-openAI.git",
+  },
+  {
+    title: "ArtVision Gallery",
+    description:
+      "A Pinterest-like project built with a front-end focus using array methods (no backend).",
+    logo: "React.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/ArtVision-Gallery.git",
+  },
+  {
+    title: "GitHub Theme Toggler Website",
+    description:
+      "A simple website with Dark, Light, and Solarize themes that persist using localStorage.",
+    logo: "Html.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/GitHub-Theme-Toggle-Website",
+  },
+  {
+    title: "Noi World",
+    description:
+      "A dynamic website showcasing the Nio ES6, a luxury electric SUV, created as a personal project using React.",
+    logo: "Html.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/noi-world.git",
+  },
+  {
+    title: "Krypto",
+    description:
+      "KRYPTO is a secure marketplace for buying and selling unique crypto assets. This project aims to provide a user-friendly interface for NFT enthusiasts to explore, buy, and sell NFTs.",
+    logo: "Html.png",
+    linkText: "View Project",
+    link: "https://github.com/pratyush0898/krypto.git",
+  },
+];
 };
 
 export default INFO;
