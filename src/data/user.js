@@ -128,7 +128,7 @@ const INFO = {
     linkText: "View Project",
     link: "https://github.com/pratyush0898/krypto.git",
   },
-];
+],
 };
 
 export default INFO;
