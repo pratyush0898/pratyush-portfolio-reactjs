@@ -27,3 +27,10 @@ debug.log*
 # enviorment variables
 .env
 *.env
+
+dist
+build
+dist/
+build/
+dist/*
+build/*
