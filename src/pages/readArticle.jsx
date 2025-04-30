@@ -3,8 +3,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
-import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
+import NavBar from "../components/common/navBar.jsx";
+import Footer from "../components/common/footer.jsx";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
