@@ -13,6 +13,19 @@ const Works = () => {
 				title="Work"
 				body={
 					<div className="works-body">
+						{/* <div className="work">
+							<img
+								src="./microsoft.png"
+								alt="facebook"
+								className="work-image"
+							/>
+							<div className="work-title">Microsoft</div>
+							<div className="work-subtitle">
+								Web devloper
+							</div>
+							<div className="work-duration">2023 - Present</div>
+						</div> */}
+
 						<div className="work">
 							<img
 								src="./fiverr.png"

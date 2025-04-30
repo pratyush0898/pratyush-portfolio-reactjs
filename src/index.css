@@ -11,11 +11,36 @@ body {
 	overflow-x: hidden;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-	background: #263238;
+/* 1) Style block code (triple-backticks → <pre><code>…</code></pre>) */
+pre {
+	background-color: #263238;
 	margin: 1px;
 	padding: 7px;
-	border-radius: 1px;
-	color: #ffffff00;
+	border-radius: 10px;
+	overflow-x: auto;
+	/* horizontal scroll if a line’s too long */
+}
+
+pre code {
+	display: block;
+	/* fill the pre container */
+	white-space: pre;
+	/* preserve all newlines/spaces */
+	font-family: source-code-pro, Menlo, Monaco, Consolas,
+		"Courier New", monospace;
+	color: #ffffff;
+}
+
+/* 2) Style inline code (`foo`) */
+code:not(pre code) {
+	background-color: #263238;
+	padding: 2px 4px;
+	border-radius: 4px;
+	white-space: pre-wrap;
+	/* preserve newlines if any, but wrap long text */
+	font-family: source-code-pro, Menlo, Monaco, Consolas,
+		"Courier New", monospace;
+	color: #ffffff;
+	word-break: break-word;
+	/* if someone pastes a massive URL, it’ll wrap */
 }
